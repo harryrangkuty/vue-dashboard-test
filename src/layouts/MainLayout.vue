@@ -118,7 +118,7 @@
     data() {
       return {
         dayjs,
-        drawer: true,
+        drawer: window.innerWidth > 1024,
       };
     },
   
